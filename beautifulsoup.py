@@ -3,7 +3,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 import time
 
-binary = FirefoxBinary(r"C:\phantomjs-2.1.1-windows\bin\phantomjs.exe")
 for number in range(600008,999999,1):
     number = '+1'+ str(number) + '4289'
     print(number)
